@@ -1,9 +1,3 @@
-"""
-TODO
-2. Save plot
-3. Automate
-"""
-
 from lib.data_deribit import get_option_data
 from lib.plot import plot
 from datetime import datetime
