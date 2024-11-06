@@ -1,9 +1,10 @@
 # Overview
-- Purpose: The demo is inspired by two blogs that discuss the construction of volatility surfaces for Bitcoin, and it aims to implement these concepts in a minimalist Pythonic way. I did this while preparing for a web3 interview. 
+- Purpose: The demo is inspired by two blogs that discuss the construction of volatility surfaces for Bitcoin, and it aims to implement these concepts in a minimalist Pythonic way. 
+- I created this while preparing for a web3 interview. 
 
 
-# Installation and Run Deribit Volatility Surface
-1. create a virtual environment for all dependencies
+# Install and Run Deribit Volatility Surface
+1. Create a virtual environment for all dependencies
 `python -m venv "venv"`
 2. Activate the virtual environment 
 `source venv/bin/activate`  (linux/mac)
@@ -18,11 +19,11 @@
 
 
 ## Bonus: Run Binance Vol Surface
-1. cd into the project folder
+1. CD into the project folder
 2. Activate the venv
 `source venv/bin/activate`  (linux/mac)
 `./venv/scripts/activate`   (Windows)
-3. Run it
+3. Run the application 
     - streamlit run app_streamlit.py
 
 
