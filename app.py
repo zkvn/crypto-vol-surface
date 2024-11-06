@@ -27,8 +27,9 @@ def generate_plot(df):
     fig = plot(df)
     logger.info("Saving plot to output folder")
     dt = datetime.now().strftime("%Y%m%d-%H%M%S")
+    # If there is a space in the path, saving image will not run
     # BUG: https://github.com/plotly/Kaleido/issues/78
-    fig.write_image(f"output/{dt}.pdf")
+    fig.write_image(f"output/{dt}.jpeg")
 
 
 def find_last_pickle():
