@@ -4,14 +4,15 @@
 
 
 # Install and Run Deribit Volatility Surface
-1. Create a virtual environment for all dependencies
+1. Clone this git to a local folder and CD into it
+2. Create a virtual environment for all dependencies
 `python -m venv "venv"`
-2. Activate the virtual environment 
+3. Activate the virtual environment 
 `source venv/bin/activate`  (linux/mac)
 `./venv/scripts/activate`   (Windows)
-3. Install the dependencies 
+4. Install the dependencies 
 `python -m pip install -r requirements.txt`
-4. Run the application 
+5. Run the application 
     - To generate the volatility surface directly using the latest downloaded file, run
         - python app.py
     - To download data and generate the volatility surface, use the following command:
